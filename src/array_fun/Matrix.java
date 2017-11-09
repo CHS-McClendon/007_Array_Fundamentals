@@ -127,6 +127,19 @@ public class Matrix {
 		System.out.println("where you see updated board -- but");
 		System.out.println("-- no check for win, no check for tie, no ask to go again");
 		
+		System.out.println("2. Second grade: Check for win or tie");
+		System.out.println("after each check, display one of the following--");
+		System.out.println("-- no winner yet, or");
+		System.out.println("-- Winner!, or");
+		System.out.println("-- no winner, game over");
+		
+		System.out.println("3. Third grade: Show who won, ask to go again");
+		System.out.println("after each check, display one of the following--");
+		System.out.println("-- no winner yet, or");
+		System.out.println("-- X is the Winner! (O is the Winner!) would you"
+				+ "like to play again?, or");
+		System.out.println("-- no winner, a tie, game over, would you like to play again?");
+		
 		
 	}
 
